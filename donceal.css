@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+h3, h2, h4{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 500;
+}
+
+p{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav ul{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #646492;
+}
+
+.nav ul li{
+  float: right;
+  border-right: 1px dotted #e0e0e0;
+}
+
+.nav ul li:first-child{
+    border-right: none;
+  }
+
+.nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #e0e0e0;
+    padding: 12px 16px;
+   
+  }
+
+.nav ul li a:hover:not(.active){
+    background-color: rgb(214, 218, 215);
+    color: #646492;
+  }
+
+.active{
+    background-color: rgb(223, 154, 25);
+  }
+
+.aside{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    top: 40px;
+    overflow: auto;
+  }
+
+.aside_1{
+    width: 100%;
+    background-color: rgba(223, 154, 25, 0.1);
+    font-size: 16px;
+  }
+
+.aside_1 h3{
+    padding: 10px;
+    text-align: center;
+}
+
+.aside_1 h2{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.aside_1 p{
+    padding: 10px;
+}
+
+.aside_1 p:last-child{
+    font-style: italic;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.aside_11{
+    width: 80%;
+    text-align: center;
+}
+
+.aside_11 h3{
+    padding-top: 10px;
+    font-size: 1em;
+}
+
+.aside_11 p{
+    padding: 10px 0px;
+}
+
+.aside_11 p:last-child{
+    font-style: italic;
+    font-size: 0.75em;
+}
+hr{
+    width: 50px;
+    border: 0.5px solid #99670b;
+    /*margin: auto;*/
+}
+
+hr.right{
+  float: right;
+}
+
+hr.left{
+  float: left;
+}
+
+.aside_2{
+    width: 100%;
+    background-color: rgba(214, 218, 215, 0.6);
+    text-align: center;
+  }
+
+.aside_2 ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  overflow: hidden;
+ /* text-align: center;*/
+  }
+
+.aside_2 ul li{
+   border-bottom: 1px dotted #99670b;
+   
+  }
+
+.aside_2 ul li a{
+   text-decoration: none;
+   display: block;
+   padding: 16px 0px;
+   color: #99670b;
+}
+
+.aside_2 ul li a:hover{
+    background-color: rgb(214, 218, 215);
+    color: #646492;
+ }
+
+ .section{
+    margin-left: 20%;
+ }
+ 
+
+
+
+
+
+
+  
+
+
+
+
+
